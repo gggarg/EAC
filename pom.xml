@@ -44,5 +44,10 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>gherkin-jvm-deps</artifactId>
+    <version>1.0.2</version>
+</dependency>
 	</dependencies>
 </project>
