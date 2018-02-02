@@ -5,12 +5,11 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
+@RunWith(Cucumber.class)
 public class TestRunner {
-
-	@RunWith(Cucumber.class)
 	@CucumberOptions(
 			plugin = {"pretty"},
 			glue = {"StepDefs"},
-			features = {"src/test/resources/Features"})
+			features = {"src/test/java/Features"})
 	public class CucumberTests {}
 }
